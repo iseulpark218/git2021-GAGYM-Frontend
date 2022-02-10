@@ -51,6 +51,18 @@ AWS
 
 <br>
 
+## 📍 Diagram
+
+<div>
+<img src="https://github.com/iseulpark218/git2021-working/blob/master/Diagram.png?raw=true"/>
+</div>
+
+## 📍 Architecture
+
+<div>
+<img src="https://github.com/iseulpark218/git2021-working/blob/master/Architecture.png?raw=true"/>
+</div>
+
 ## 📍 Teammate
 
 <div id=teammate>

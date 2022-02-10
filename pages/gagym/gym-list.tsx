@@ -4,9 +4,11 @@ import styles from "../../styles/Gymlist.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AppBar from "../../components/appbar";
 import Footer from "../../components/footer";
+import Pagination from "../../components/pagination";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
+// import { Pagination } from "react-bootstrap";
 
 interface GymDetail {
   albumId: number;
@@ -98,7 +100,9 @@ const GymList = ({ gymList }: gymListProp) => {
           ))}
         </div>
       </div>
-
+      <div className="d-flex justify-content-center m-5">
+        {/* <Pagination /> */}
+      </div>
       <Footer />
     </div>
   );
