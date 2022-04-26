@@ -9,6 +9,7 @@ import Footer from "../../../components/footer";
 import { GetServerSideProps } from "next";
 import axios from "axios";
 
+
 interface GymDetails {
   albumId: number;
   id: number;
